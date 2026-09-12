@@ -6,9 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm \
-    simutrans        \
-    simutrans-pak128
+pacman -Syu --noconfirm simutrans simutrans-pak128
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
